@@ -1,0 +1,93 @@
+body{font-size: 1.2em; background-color: black;
+
+}
+.cajas{
+    background-color: #5b7989; font-family: cursive;
+    ;  letter-color: white; text-shadow: black 0.1em 0.1em 0.2em; border-top-left-radius: 10px; border-top-right-radius: 10px;
+height: 150px;margin-top: 0; margin-bottom: 0;
+}
+a[ href^="file:///C:/Users/ventana%20ret%20a%20car%20sa/3D%20Objects/proyecto%20css%20final/retratos/index.html#"]{
+    text-decoration: none;
+}
+
+#leyen0{
+    color: white; text-align: left; width: 90%;
+}
+
+
+
+    #line{ text-align: right; margin-top: 0; margin-right: 10px;
+
+    }
+.imagen1{ width: 33%; height: auto;
+    -webkit-filter: blur(10px);filter:blur(10px);
+
+}
+
+.imagen2{width: 33%;height: auto;-webkit-filter: grayscale(100%);filter: grayscale(100%);
+
+}
+.imagen3{width: 33%;height: auto;-webkit-filter: sepia(90%); filter: sepia(90%);
+}
+.imagen4{width: 33%;height: auto;-webkit-filter: grayscale(100%);filter: grayscale(100%);
+
+}
+.imagen5{width: 33%;height: auto;
+
+}
+.imagen6{width: 33%;height: auto; -webkit-filter: grayscale(100%);filter: grayscale(100%);
+
+}
+@media all and (max-width:640px) and (min-width:360px){
+
+
+#leyen1{
+    width: 100%; order: 1;
+}
+#leyen2{
+width: 100%;order: 2;
+}
+#leyen3{
+width: 100%; order: 3;
+}
+#leyen4{
+width: 100%; order: 4;
+}
+.pies{
+width: 90%; height: 100;  display:flex;  flex-direction: column;
+
+}
+.cajas{
+    width: 90%; height: auto;
+}
+}
+.contenido{
+    background-color: #d5c75f; border: 1px;width: 90%; height:auto;display: flex;
+    flex-direction: row; flex-wrap: wrap; margin-top: 0;margin-left: 5%; margin-right: 5%;
+text-align: center;
+}
+
+.cajas{
+    width: 90%;  margin-left: 5%; margin-right: 5%; color: white;
+     text-shadow:2px #02010a;
+}
+.pies{
+    background-color:  #C6d5c5; height: 100%; width: 90%; margin-left: 5%;margin-right: 5%;
+    border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; margin-top: 0;
+    display: flex; flex-flow: row wrap; text-align: center;
+}
+#leyen1{
+     text-align: center;display: inline; order: 1; flex-grow: 1;
+}
+
+#leyen2{
+     text-align: center;display: inline; order: 2;flex-grow: 1;
+
+}
+
+#leyen3{
+     text-align: center;display: inline; order: 3; flex-grow: 1;
+}
+#leyen4{
+         text-align: center;display: inline; order: 4; flex-grow: 1;
+}

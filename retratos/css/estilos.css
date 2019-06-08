@@ -1,0 +1,211 @@
+body{font-size: 1.2em;background-color:#02010a;
+    font-family: "DancingScript";
+
+width: 900px;position:relative; margin-left: auto;
+ margin-right: auto;
+}
+
+@font-face {
+    font-family:  "DancingScript";
+     src: url(DancingScript.ttf);
+}
+
+
+
+a[ href^="file:///C:/Users/ventana%20ret%20a%20car%20sa/3D%20Objects/proyecto%20css%20final/retratos/index.html"]{text-decoration: none;}
+
+#leyen0{
+    color: white; text-align: left; width: 50%; margin-top: 50px;
+}
+
+a{
+    color: white; text-shadow: 2px 2px #02010a;margin-left: 5px;
+
+}
+p{font-family:  "DancingScript";
+}
+h1{
+ font-family:  "DancingScript";
+}
+    .line{  color: white; text-shadow: 2px 2px #02010a;
+
+         height: 20%; display: flex; float: right; margin-left: 200px; margin-top: 60px;
+
+    }
+
+
+    .cajas{
+        width: 900px;  margin-left: auto ; margin-right: auto; color: white;
+         text-shadow:2px 2px #02010a;display: flex;flex-flow: row wrap; background-color: #5b7989;
+         border-top-left-radius: 10px; border-top-right-radius: 10px;
+         font-family:  "DancingScript";
+    }
+    .contenido {
+        background-color: #d5c75f; border: 1px;width: 900px; height:auto; display: flex;
+        flex-direction: row; flex-wrap: wrap;  margin-left: auto; margin-right: auto;
+        font-family:  "DancingScript";
+    }
+
+    .contenedor{
+        width: 100%; height: auto; margin-left: auto;
+         margin-right: auto;
+
+        animation: 5s movimiento infinite;}
+        @-webkit-keyframes movimiento{
+
+        0%{margin-top:150%;}
+        60%{margin-top: -5%;}
+        100%{margin-top: 0%;}
+        }
+
+
+.pies{
+    background-color:  #C6d5c5; height: 100%; width: 900px; margin-left: auto;margin-right: auto;
+    border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; margin-top: 0; display: flex;
+    flex-flow: row wrap;font-family:"
+
+}
+#leyen1{
+     text-align: justify; display: inline; order: 1; flex-grow: 1;
+      width: 22%; height:auto;margin-left:20px;;margin-right:
+}
+
+#leyen2{
+     text-align: justify;display: inline; order: 2;flex-grow: 1;
+      width: 22%;height: auto;margin-left:20px;
+      margin-right: auto;
+
+}
+
+#leyen3 {
+     text-align: justify;display: inline; order: 3;
+     flex-grow: 1; margin-left: 20px;
+     margin-right: auto; width: 22%;
+}
+#leyen4 {
+         text-align: justify;display: inline; order: 4;
+          flex-grow: 1;margin-left: 20px;
+         margin-right: auto; width: 22%;height: auto;
+}
+.imagen1{ width: 33%; height: auto;
+    -webkit-filter: blur(10px);filter:blur(10px);
+margin-left: auto;margin-right: auto;
+}
+
+.imagen2{width: 33%;height: auto;-webkit-filter: grayscale(100%);filter: grayscale(100%);
+margin-left: auto;margin-right: auto;
+}
+.imagen3{width: 33%;height: auto;-webkit-filter: sepia(90%); filter: sepia(90%);
+margin-left: auto;margin-right: auto;
+}
+.imagen4{width: 33%;height: auto;-webkit-filter: grayscale(100%);filter: grayscale(100%);
+margin-left: auto;margin-right: auto;
+}
+.imagen5{width: 33%;height: auto;
+margin-left: auto;margin-right: auto;
+}
+.imagen6{
+    width: 33%;height: auto; -webkit-filter: grayscale(100%);filter: grayscale(100%);
+margin-left: auto;margin-right: auto;
+}
+
+
+@media all and (max-width:900px) and (min-width:320px){
+body{ width: 100%; margin-left: auto;margin-right: auto;height: auto;
+
+}
+
+    .contenedor{
+        width: 100%; height: auto; margin-left: auto;
+         margin-right: auto;
+
+        animation: 5s movimiento infinite;
+
+    }
+
+    .contenido{ width: 100%; height: auto; margin-left:
+        auto; margin-right: auto;
+         background-color: #d5c75f;  display: flex;
+         flex-direction: column;
+
+    }
+    @-webkit-keyframes movimiento{
+
+    0%{margin-top:150%;}
+    60%{margin-top: -5%;}
+    100%{margin-top: 0%;}
+    }
+    .imagen1{
+        width: 100%; height: auto;margin-left: auto;
+        margin-right: auto;
+    }
+    .imagen2{
+        width: 100%; height: auto;margin-left: auto;
+        margin-right: auto;
+    }
+    .imagen3{
+        width: 100%; height: auto;margin-left: auto;
+        margin-right: auto;
+    }
+    .imagen4{
+        width: 100%; height: auto;margin-left: auto;
+        margin-right: auto;
+    }
+    .imagen5{
+        width: 100%; height: auto;margin-left: auto;
+        margin-right: auto;
+    }
+    .imagen6{
+        width: 100%; height: auto;margin-left: auto;
+        margin-right: auto;
+    }
+
+    #leyen1{
+        width: 100%; order: 1; text-align: justify;
+        margin-left: 20px; margin-right: auto;
+
+    }
+    #leyen2{
+    width: 100%;order: 2; text-align: justify;
+    margin-left: 20px; margin-right: auto;
+    }
+    #leyen3{
+    width: 100%; order: 3; text-align: justify;
+    margin-left: 20px; margin-right: auto;
+    }
+    #leyen4{
+    width: 100%; order: 4; text-align: justify;
+    margin-left: 20px; margin-right: auto;
+    }
+.line{  color: white; text-shadow: 2px 2px #02010a;
+    text-align: center; display: flex;
+height: auto;  margin-left:25%; width: 100%;
+}
+a[ href^="file:///C:/Users/ventana%20ret%20a%20car%20sa/3D%20Objects/proyecto%20css%20final/retratos/index.html"]{text-decoration: none;}
+
+#leyen0{
+    text-align: center; margin-left:25%;margin-right: auto;
+}
+
+.pies{
+width: 100%; height: auto;  display:flex;
+flex-direction: column;
+text-align: center;margin-left: auto; margin-right: auto;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px; margin-top: 0;
+
+}
+
+#leyen0{
+    text-align: center; margin-left:25%;margin-right: auto;
+}
+.cajas{
+    width: 100%; height:auto; text-align: center;
+    display: flex; flex-direction: column;
+    margin-left:auto; margin-right: auto; color: white;
+     text-shadow:2px 2px #02010a;
+     background-color: #5b7989;
+     border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+}
+}
